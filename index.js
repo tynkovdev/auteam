@@ -12,5 +12,5 @@ app.set(`views`, `views`);
 app.set(`view engine`, `hbs`);
 
 app.get(`/`, (req, res) => {
-    red.render(`index`);
+    res.render(`index`);
 });
